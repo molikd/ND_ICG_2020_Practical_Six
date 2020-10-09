@@ -3,6 +3,9 @@
 #$ -m abe
 #$ -N BIOS60132_Practical_Six
 
+#Extract compressed package files
+tar -xvf HelloWorld.tar.gz
+
 #Load modules
 module load julia
 
